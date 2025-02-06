@@ -16,21 +16,18 @@
         "paths": {
             "@/*": ["./resources/js/*"],
             "ziggy-js": ["./vendor/tightenco/ziggy"],
-            "#components/*": ["resources/js/Components/*"]
         },
         "types": [
             "vite/client",
             "vue",
-            "./.inertia/imports.d.ts",
-            "./.inertia/components.d.ts",
+            "./.inertia/index.d.ts",
         ]
     },
     "include": [
         "resources/js/**/*.ts",
         "resources/js/**/*.d.ts",
         "resources/js/**/*.vue",
+        ".inertia/index.d.ts",
         ".inertia/shims-vue.d.ts",
-        ".inertia/imports.d.ts",
-        ".inertia/components.d.ts",
     ]
 }

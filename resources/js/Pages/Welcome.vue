@@ -53,7 +53,6 @@ console.log(usePage().props);
 
         <PrimaryButton class="mt-8" @click="onClick">Login</PrimaryButton>
 
-
 </template>
 
 <style>
