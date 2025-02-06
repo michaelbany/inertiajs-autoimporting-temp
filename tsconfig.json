@@ -21,16 +21,16 @@
         "types": [
             "vite/client",
             "vue",
-            "./resources/js/imports.d.ts",
-            "./resources/js/components.d.ts"
+            "./.inertia/imports.d.ts",
+            "./.inertia/components.d.ts",
         ]
     },
     "include": [
         "resources/js/**/*.ts",
         "resources/js/**/*.d.ts",
         "resources/js/**/*.vue",
-        "resources/js/shims-vue.d.ts",
-        "resources/js/imports.d.ts",
-        "resources/js/components.d.ts",
+        ".inertia/shims-vue.d.ts",
+        ".inertia/imports.d.ts",
+        ".inertia/components.d.ts",
     ]
 }

@@ -22,7 +22,7 @@ export default defineConfig({
             dirs: ["resources/js/Components"],
             extensions: ["vue"],
             deep: true,
-            dts: "resources/js/components.d.ts",
+            dts: ".inertia/components.d.ts",
             directoryAsNamespace: true,
             resolvers: [
                 (name) => {
@@ -49,7 +49,7 @@ export default defineConfig({
                 },
             ],
             dirs: ["resources/js/Composables", "resources/js/Utils"],
-            dts: "resources/js/imports.d.ts",
+            dts: ".inertia/imports.d.ts",
         }),
     ],
 });
